@@ -14,7 +14,6 @@ a = 0
 for i in range(1000):
     a += (i**100)
 
-
 data = pd.read_excel('Fc5_new_simplified.xlsx')
 
 X = data.iloc[:,0:10000]
